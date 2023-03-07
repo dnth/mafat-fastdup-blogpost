@@ -10,9 +10,9 @@ Data insights from [MAFAT Satellite Vision Challenge](https://codalab.lisn.upsac
 
 + `fastdup_report/` - Stores the reports from fastdup.
 
-+ `fastdup_train.ipynb` - Notebook to analyze the labeled training images.
++ `fastdup_train.ipynb` - [Notebook](./fastdup_train.ipynb) to analyze the labeled training images.
 
-+ `fastdup_unlabeled.ipynb` - Notebook to analyze the unlabeled images.
++ `fastdup_unlabeled.ipynb` - [Notebook](./fastdup_unlabeled.ipynb) to analyze the unlabeled images.
 
 ## 👯‍♀️ Duplicates
 We find 927 fully identical images (d>0.990), which are 3.74 % of the unlabeled data.
