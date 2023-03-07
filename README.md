@@ -22,19 +22,29 @@ See the notebook [here](./fastdup_unlabeled.ipynb).
 
 ## 🧩 Components
 We find many clusters of similar looking images which may or may not provide insight.
-![componenets](./img/components.png)
+![components](./img/components.png)
+
+[Back to top ⤴](#top)
 
 ## 🎸 Outliers
 ![outliers](./img/outliers.png)
 
+[Back to top ⤴](#top)
+
 ## 📎 Blur
 ![blur](./img/blur.png)
+
+[Back to top ⤴](#top)
 
 ## 📙 Bright
 ![bright](./img/bright.png)
 
+[Back to top ⤴](#top)
+
 ## 🪔 Dark
 ![dark](./img/dark.png)
+
+[Back to top ⤴](#top)
 
 
 ## 📞 Questions? Connect with me
@@ -67,3 +77,4 @@ Your support will help me to continue developing and maintaining this project, a
 
 <a href="https://www.buymeacoffee.com/dicksonneoh" target="_blank"><img src="https://cdn.buymeacoffee.com/buttons/v2/default-blue.png" alt="Buy Me A Coffee" style="height: 60px !important;width: 217px !important;" ></a>
 
+[Back to top ⤴](#top)
