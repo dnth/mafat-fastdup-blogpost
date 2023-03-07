@@ -15,4 +15,14 @@ Data insights from [MAFAT Satellite Vision Challenge](https://codalab.lisn.upsac
 
 + `fastdup_unlabeled.ipynb` - Notebook to analyze the unlabeled images.
 
-<iframe src="./fastdup_report/train/galleries/duplicates.html" width="100%" height="300px"></iframe>
+## Duplicates
+
+## Components
+
+## Outliers
+
+## Statistics
+
+
+
+
