@@ -4,9 +4,9 @@
 
 Data insights from [MAFAT Satellite Vision Challenge](https://codalab.lisn.upsaclay.fr/competitions/9603).
 
-## Folder Structure
+## 📂 Folder Structure
 
-+ `dataset/` - Stores the image dataset downloaded from the MAFAT official webpage.
++ `dataset/` - Stores the image dataset downloaded from the MAFAT official webpage. [Sign up](https://codalab.lisn.upsaclay.fr/competitions/9603) and downloaded the data into this folder.
 
 + `fastdup_report/` - Stores the reports from fastdup.
 
