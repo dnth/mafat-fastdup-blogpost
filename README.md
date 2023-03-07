@@ -20,6 +20,8 @@ See the notebook [here](./fastdup_unlabeled.ipynb).
 
 ![duplicates](./img/duplicates.png)
 
+[Back to top ⤴](#top)
+
 ## 🧩 Components
 We find many clusters of similar looking images which may or may not provide insight.
 ![components](./img/components.png)
