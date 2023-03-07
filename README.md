@@ -14,3 +14,5 @@ Data insights from [MAFAT Satellite Vision Challenge](https://codalab.lisn.upsac
 + `fastdup_train.ipynb` - Notebook to analyze the labeled training images.
 
 + `fastdup_unlabeled.ipynb` - Notebook to analyze the unlabeled images.
+
+<iframe src="./fastdup_report/train/galleries/duplicates.html" width="100%" height="300px"></iframe>
