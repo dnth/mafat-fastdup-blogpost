@@ -6,7 +6,6 @@ Data insights from [MAFAT Satellite Vision Challenge](https://codalab.lisn.upsac
 
 ## Folder Structure
 
-
 + `dataset/` - Stores the image dataset downloaded from the MAFAT official webpage.
 
 + `fastdup_report/` - Stores the reports from fastdup.
@@ -15,22 +14,26 @@ Data insights from [MAFAT Satellite Vision Challenge](https://codalab.lisn.upsac
 
 + `fastdup_unlabeled.ipynb` - Notebook to analyze the unlabeled images.
 
-## Duplicates
+## 👯‍♀️ Duplicates
+We find 927 fully identical images (d>0.990), which are 3.74 % of the unlabeled data.
+See the notebook [here](./fastdup_unlabeled.ipynb).
+
 ![duplicates](./img/duplicates.png)
 
-## Components
+## 🧩 Components
+We find many clusters of similar looking images which may or may not provide insight.
 ![componenets](./img/components.png)
 
-## Outliers
+## 🎸 Outliers
 ![outliers](./img/outliers.png)
 
-## Blur
+## 📎 Blur
 ![blur](./img/blur.png)
 
-## Bright
+## 📙 Bright
 ![bright](./img/bright.png)
 
-## Dark
+## 🪔 Dark
 ![dark](./img/dark.png)
 
 
