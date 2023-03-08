@@ -2,7 +2,17 @@
 
 ![satellite_vision1](https://user-images.githubusercontent.com/6821286/223389185-62d25fc9-767f-4cc7-8caf-c2e50b12883e.png)
 
-Data insights from [MAFAT Satellite Vision Challenge](https://codalab.lisn.upsaclay.fr/competitions/9603).
+In this repository, I use a free tool known as [`fastdup`](https://github.com/visual-layer/fastdup) to gain data insights from [MAFAT Satellite Vision Challenge](https://codalab.lisn.upsaclay.fr/competitions/9603) labeled and unlabeled data.
+
+`fastdup` is a free tool used to manage, clean & curate visual data.
+It is fast (runs on you CPU) and scalable. It can handle up to 400M images on a single CPU machine.
+
+The main features of `fastdup` include -
++ Finding duplicates.
++ Finding anomalies.
++ Clustering similar images.
+
+In this repository I ran `fastdup` on both the labeled and unlabeled data, and document my findings.
 
 ## 📂 Folder Structure
 
@@ -15,7 +25,9 @@ Data insights from [MAFAT Satellite Vision Challenge](https://codalab.lisn.upsac
 + `fastdup_unlabeled.ipynb` - [Notebook](./fastdup_unlabeled.ipynb) to analyze the unlabeled images.
 
 ## 👯‍♀️ Duplicates
-We find 927 fully identical images (d>0.990), which are 3.74 % of the unlabeled data.
+`fastdup` is extremely fast and robust at finding duplicate images. 
+
+In the unlabeled dataset, I find 927 fully identical images which is 3.74 % of the unlabeled data.
 See the notebook [here](./fastdup_unlabeled.ipynb).
 
 ![duplicates](./img/duplicates.png)
@@ -23,27 +35,39 @@ See the notebook [here](./fastdup_unlabeled.ipynb).
 [Back to top ⤴](#top)
 
 ## 🧩 Components
-We find many clusters of similar looking images which may or may not provide insight.
+I also used `fastdup` to find similar looking images (clusters).
+
+As shown below, there are many similar looking images clustered together.
+These clusters may or may not provide insights. 
+
 ![components](./img/components.png)
 
 [Back to top ⤴](#top)
 
 ## 🎸 Outliers
+`fastdup` can also be used to find anomalies in the dataset. The following gallery shows images that are "different" (measured using `cosine` distance) compared to the rest in the unlabeled dataset.
+
 ![outliers](./img/outliers.png)
 
 [Back to top ⤴](#top)
 
 ## 📎 Blur
+The following gallery shows the images sorted according to blurriness (from most blurry to less).
+
 ![blur](./img/blur.png)
 
 [Back to top ⤴](#top)
 
 ## 📙 Bright
+The following gallery shows the images sorted according to brightness (brightest at the top).
+
 ![bright](./img/bright.png)
 
 [Back to top ⤴](#top)
 
 ## 🪔 Dark
+The following gallery shows the images sorted according to darkness (darkest at the top).
+
 ![dark](./img/dark.png)
 
 [Back to top ⤴](#top)
