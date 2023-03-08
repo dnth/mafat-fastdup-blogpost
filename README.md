@@ -72,6 +72,13 @@ The following gallery shows the images sorted according to darkness (darkest at 
 
 [Back to top ⤴](#top)
 
+## 💭 So what?
+As you can see not all images are useful in training a model.
+
++ Duplicate images do no provide additional insights. They hog disk space and prolong your training time. These can be discarded.
++ Overly dark/bright/blur images without any objects also do not provide value.
++ For the clusters and outliers, I'll leave it for you to decide if they are useful to train a model.
+
 
 ## 📞 Questions? Connect with me
 If you have any questions or feedback, please don't hesitate to reach out to me.
