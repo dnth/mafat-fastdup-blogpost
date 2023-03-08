@@ -1,6 +1,7 @@
 # Data Insights from the MAFAT Satellite Vision Challenge
 
-![mafat](https://user-images.githubusercontent.com/6821286/223626468-30bc770e-c749-48af-8a60-e4a8debc8270.png)
+[![mafat](https://user-images.githubusercontent.com/6821286/223626468-30bc770e-c749-48af-8a60-e4a8debc8270.png)](https://codalab.lisn.upsaclay.fr/competitions/9603)
+
 
 In this repository, I use a free tool known as [`fastdup`](https://github.com/visual-layer/fastdup) to gain data insights from [MAFAT Satellite Vision Challenge](https://codalab.lisn.upsaclay.fr/competitions/9603) labeled and unlabeled data.
 
