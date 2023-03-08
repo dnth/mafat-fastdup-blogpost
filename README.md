@@ -79,6 +79,12 @@ As you can see not all images are useful in training a model.
 + Overly dark/bright/blur images without any objects also do not provide value.
 + For the clusters and outliers, I'll leave it for you to decide if they are useful to train a model.
 
+Curating a dataset goes a long way in making sure a model works.
+
+In my opinion these are low-hanging fruits that can be addressed to ensure the dataset is reasonably "clean" before training any model.
+
+Happy hacking.
+
 
 ## 📞 Questions? Connect with me
 If you have any questions or feedback, please don't hesitate to reach out to me.
