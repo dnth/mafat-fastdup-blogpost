@@ -15,6 +15,37 @@ The main features of `fastdup` include -
 
 In this repository I ran `fastdup` on both the labeled and unlabeled data, and document my findings.
 
+At a high level `fastdup` find the following potential issues in the labeled dataset (1457 images) -
+
++ A total of 12 fully identical images (`d>0.990`), which are `0.27 %`.
++ A total of 25 nearly identical images (`d>0.980`), which are `0.57 %`.
++ A total of 559 above threshold images (`d>0.900`), which are `12.79 %`.
++ A total of 145 outlier images (`d<0.050`), which are `3.32 %`.
+
+
+At a high level `fastdup` find the following potential issues in the unlabeled dataset (8258 images) -
+
++ A total of 914 fully identical images (`d>0.990`), which are `3.69 %`.
++ A total of 466 nearly identical images (`d>0.980`), which are `1.88 %`.
++ A total of 7393 above threshold images (`d>0.900`), which are `29.84 %`.
++ A total of 825 outlier images (`d<0.050`), which are `3.33 %`.
+
+## 💭 So what?
+As you can see not all images are useful in training a model.
+
++ Duplicate images do no provide additional insights. They hog disk space and prolong your training time. These can be discarded.
++ Overly dark/bright/blur images without any objects also do not provide value.
++ For the clusters and outliers, I'll leave it for you to decide if they are useful to train a model.
+
+Curating a dataset goes a long way in making sure a model works.
+
+In my opinion these are low-hanging fruits that can be addressed to ensure the dataset is reasonably "clean" before training any model.
+
+If you're interested to explore the dataset yourself, read on.
+
+Happy hacking.
+
+
 ## 📂 Folder Structure
 
 + `dataset/` - Stores the image dataset downloaded from the MAFAT official webpage. [Sign up](https://codalab.lisn.upsaclay.fr/competitions/9603) and downloaded the data into this folder.
@@ -72,19 +103,6 @@ The following gallery shows the images sorted according to darkness (darkest at 
 ![dark](./img/dark.png)
 
 [Back to top ⤴](#top)
-
-## 💭 So what?
-As you can see not all images are useful in training a model.
-
-+ Duplicate images do no provide additional insights. They hog disk space and prolong your training time. These can be discarded.
-+ Overly dark/bright/blur images without any objects also do not provide value.
-+ For the clusters and outliers, I'll leave it for you to decide if they are useful to train a model.
-
-Curating a dataset goes a long way in making sure a model works.
-
-In my opinion these are low-hanging fruits that can be addressed to ensure the dataset is reasonably "clean" before training any model.
-
-Happy hacking.
 
 
 ## 📞 Questions? Connect with me
