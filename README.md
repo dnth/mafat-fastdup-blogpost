@@ -52,15 +52,15 @@ Happy hacking.
 
 + `fastdup_report/` - Stores the reports from fastdup.
 
-+ `fastdup_train.ipynb` - [Notebook](./fastdup_train.ipynb) to analyze the labeled training images.
++ `fastdup_train.ipynb` - [Notebook](https://nbviewer.org/github/dnth/mafat-fastdup-blogpost/blob/main/fastdup_train.ipynb) to analyze the labeled training images.
 
-+ `fastdup_unlabeled.ipynb` - [Notebook](./fastdup_unlabeled.ipynb) to analyze the unlabeled images.
++ `fastdup_unlabeled.ipynb` - [Notebook](https://nbviewer.org/github/dnth/mafat-fastdup-blogpost/blob/main/fastdup_unlabeled.ipynb) to analyze the unlabeled images.
 
 ## 👯‍♀️ Duplicates
 `fastdup` is extremely fast and robust at finding duplicate images. 
 
 In the unlabeled dataset, I find 927 fully identical images which is 3.74 % of the unlabeled data.
-See the notebook [here](./fastdup_unlabeled.ipynb).
+See the notebook [here](https://nbviewer.org/github/dnth/mafat-fastdup-blogpost/blob/main/fastdup_unlabeled.ipynb).
 
 ![duplicates](./img/duplicates.png)
 
